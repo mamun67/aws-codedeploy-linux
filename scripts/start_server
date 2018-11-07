@@ -1,3 +1,4 @@
 #!/bin/bash
+echo "In start server" >>results.txt 2> errors.log &
 service httpd start
 
